@@ -7,7 +7,7 @@
   		<artifactId>microservicesSpring</artifactId>
   		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.example.especialidad</groupId>
+	<groupId>com.microservice.especialidad</groupId>
 	<artifactId>microservice-especialidad</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservice-especialidad</name>
