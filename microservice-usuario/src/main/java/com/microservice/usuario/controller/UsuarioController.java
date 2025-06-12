@@ -53,4 +53,8 @@ public class UsuarioController {
         return ResponseEntity.ok(usuarioService.findByRol(RolUsuario.PACIENTE));
     }
 
+    @GetMapping("/search-by-especialidad/{especialidadId}")
+    public ResponseEntity<?> findByIdEspecialidad(@PathVariable Long especialidadId){
+        return ResponseEntity.ok(usuarioService.findByIdEspecialidad(especialidadId));
+    }
 }

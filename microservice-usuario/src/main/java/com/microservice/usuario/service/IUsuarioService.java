@@ -15,5 +15,5 @@ public interface IUsuarioService {
 
     List<Usuario> findByRol(RolUsuario rol);
 
-    List<Usuario> findByIdEspecialidad(Long idEspecialidad);
+    List<Usuario> findByIdEspecialidad(Long especialidadId);
 }

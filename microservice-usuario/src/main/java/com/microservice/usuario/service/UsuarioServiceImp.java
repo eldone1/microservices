@@ -34,8 +34,8 @@ public class UsuarioServiceImp implements IUsuarioService{
     }
 
     @Override
-    public List<Usuario> findByIdEspecialidad(Long idEspecialidad) {
-        return usuarioRepository.findAllByEspecialidadId(idEspecialidad);
+    public List<Usuario> findByIdEspecialidad(Long especialidadId) {
+        return usuarioRepository.findAllByEspecialidadId(especialidadId);
     }
 
 
