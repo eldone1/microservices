@@ -44,4 +44,10 @@ public class Usuario {
     @Enumerated(EnumType.STRING)
     private RolUsuario rol;
 
+    private Long especialidadId;
+
+    private String especialidad; 
+    
+    private String historiaClinica;
+
 }
