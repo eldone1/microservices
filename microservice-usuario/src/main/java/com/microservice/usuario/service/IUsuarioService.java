@@ -14,4 +14,6 @@ public interface IUsuarioService {
     void save(Usuario usuario);
 
     List<Usuario> findByRol(RolUsuario rol);
+
+    List<Usuario> findByIdEspecialidad(Long idEspecialidad);
 }

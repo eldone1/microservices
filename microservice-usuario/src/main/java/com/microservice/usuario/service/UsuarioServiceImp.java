@@ -33,5 +33,10 @@ public class UsuarioServiceImp implements IUsuarioService{
         return usuarioRepository.findByRol(rol);
     }
 
+    @Override
+    public List<Usuario> findByIdEspecialidad(Long idEspecialidad) {
+        return usuarioRepository.findAllByEspecialidadId(idEspecialidad);
+    }
+
 
 }
