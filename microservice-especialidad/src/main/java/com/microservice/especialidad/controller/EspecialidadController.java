@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.microservice.especialidad.entities.Especialidad;
 import com.microservice.especialidad.service.IEspecialidadService;
 
+
 @RestController
 @RequestMapping("/api/especialidad")
 public class EspecialidadController {
@@ -36,6 +37,11 @@ public class EspecialidadController {
     @GetMapping("/search/{id}")
     public ResponseEntity<?> findById(@PathVariable Long id){
         return ResponseEntity.ok(especialidadService.findById(id));
+    }
+
+    @GetMapping("/search-usuario/{especialidadId}")
+    public ResponseEntity<?> findUsuariosByEspecialidadId(@PathVariable Long especialidadId){
+        return ResponseEntity.ok(especialidadService.findUsuariosByEspecialidadId(especialidadId));
     }
 
 
