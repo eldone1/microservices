@@ -27,27 +27,19 @@ public class Usuario {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nombre;
-
     private String apellidos;
     private String email;
     private String telefono;
-
-    @Column(name = "fecha_registro")
-    private LocalDateTime fechaRegistro;
 
     @Column(unique = true, nullable = false)
     private String username;
 
     @Column(nullable = false)
-    private String password; 
+    private String pass; 
 
     @Enumerated(EnumType.STRING)
     private RolUsuario rol;
 
     private Long especialidadId;
-
-    private String especialidad; 
-    
-    private String historiaClinica;
 
 }
