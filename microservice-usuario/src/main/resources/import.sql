@@ -1,0 +1,5 @@
+INSERT INTO usuario (nombre, apellidos, email, telefono, username, pass, rol, especialidad_id) VALUES ('Diego', 'Minaya', 'diego.dme966@gmail.com', '999888555', 'diegoame', 'eldone69', 'DOCTOR', 1);
+INSERT INTO usuario (nombre, apellidos, email, telefono, username, pass, rol, especialidad_id) VALUES ('Gimena', 'Zambrano', 'gimez@gmail.com', '999848555', 'zambgi', '12345', 'DOCTOR', 2);
+INSERT INTO usuario (nombre, apellidos, email, telefono, username, pass, rol, especialidad_id) VALUES ('Jose', 'Lara', 'laraj@gmail.com', '485784568', 'laraj', '654654', 'DOCTOR', 3);
+INSERT INTO usuario (nombre, apellidos, email, telefono, username, pass, rol, especialidad_id) VALUES ('Pepe', 'Paucar', 'paucarp@gmail.com', '996885224', 'papepe', '12341234', 'DOCTOR', 1);
+INSERT INTO usuario (nombre, apellidos, email, telefono, username, pass, rol, especialidad_id) VALUES ('Miranda', 'Minaya', 'mirand@gmail.com', '123456789', 'miranda', '19021902', 'DOCTOR', 2);
